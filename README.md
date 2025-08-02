@@ -4,6 +4,7 @@ The purpose of this project is to develop a comprehensive deep learning-based sy
 system is designed to reconstruct high-quality brain images from noisy, low-resolution, or degraded input scans using Convolutional Autoencoders (CAEs). This reconstruction process restores critical anatomical details, ensuring diagnostic accuracy by enhancing the clarity and resolution of the images. Following reconstruction, the system applies Convolutional Neural Networks (CNNs) to accurately detect the presence of tumors.
 <img width="969" height="643" alt="image" src="https://github.com/user-attachments/assets/556670e1-0469-4160-8844-5763393137a8" />
 <img width="866" height="456" alt="image" src="https://github.com/user-attachments/assets/b1a672d7-bfa3-4b41-8c5d-0215ee18e1d6" />
+
 The similar page applies for kidney.
 
 Brain Output:
