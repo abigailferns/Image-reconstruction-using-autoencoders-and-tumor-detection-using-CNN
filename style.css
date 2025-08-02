@@ -1,0 +1,152 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f6f8;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background: #1e3c72;
+    color: white;
+    padding: 30px;
+}
+
+.organ-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    margin: 50px auto;
+    gap: 30px;
+}
+
+.organ-box {
+    background: #ffffff;
+    border: 2px solid #1e3c72;
+    border-radius: 10px;
+    padding: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1e3c72;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.organ-box:hover {
+    background: #e6f0fa;
+}
+
+.upload-section {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload-box {
+    border: 2px dashed #1e3c72;
+    border-radius: 10px;
+    width: 60%;
+    padding: 30px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.upload-box:hover {
+    background: #e6f0fa;
+}
+
+input[type="file"] {
+    margin: 20px 0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e3c72;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.result-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+
+.hidden {
+    display: none;
+}
+
+.organ-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 60px auto;
+    flex-wrap: wrap;
+}
+
+.organ-box {
+    background: #ffffff;
+    border: 2px solid #1e3c72;
+    border-radius: 16px;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    color: #1e3c72;
+    transition: transform 0.3s ease, background 0.3s;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+
+.organ-box:hover {
+    background: #e6f0fa;
+    transform: scale(1.05);
+}
+
+.organ-box h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.organ-box img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+.classification-box {
+    background-color: #ffffff;
+    border: 2px solid #1e3c72;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.2em;
+    width: 5cm;
+    height: 3cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}

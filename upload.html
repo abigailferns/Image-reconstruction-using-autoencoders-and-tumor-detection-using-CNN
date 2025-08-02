@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ organ|capitalize }} MRI Upload</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header>
+    <h1>{{ organ|capitalize }} MRI Image Reconstruction</h1>
+    <p>Upload or drag & drop your MRI scan</p>
+</header>
+
+<section class="upload-section">
+    <div class="upload-box" id="uploadBox">
+        <input type="file" id="imageInput" accept="image/*">
+        <p>Drag & Drop or Click to Upload MRI Image</p>
+        <button onclick="processImage('{{ organ }}')">Process Image</button>
+    </div>
+    <div id="loading" class="hidden">
+        <p>🔄 Processing... Please wait</p>
+    </div>
+</section>
+
+<section class="results hidden" id="resultsSection">
+    <div class="result-image">
+        <h3>Original Image</h3>
+        <img id="originalImage" src="#" alt="Original" class="hidden">
+    </div>
+    <div class="result-image">
+        <h3>Denoised Image</h3>
+        <img id="denoisedImage" src="#" alt="Denoised" class="hidden">
+    </div>
+    <div class="result-image">
+        <h3>Tumor Classification</h3>
+        <div id="predictionBox" class="classification-box hidden"></div>
+    </div>
+</section>
+
+<a href="{{ url_for('index') }}">
+    <button>⬅ Go Back</button>
+</a>
+
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
