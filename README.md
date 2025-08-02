@@ -3,15 +3,24 @@ Deep learning is a subset of machine learning, which itself is a branch of Artif
 The purpose of this project is to develop a comprehensive deep learning-based system that performs both image reconstruction and tumor detection for medical MRI scans. Initially, the
 system is designed to reconstruct high-quality brain images from noisy, low-resolution, or degraded input scans using Convolutional Autoencoders (CAEs). This reconstruction process restores critical anatomical details, ensuring diagnostic accuracy by enhancing the clarity and resolution of the images. Following reconstruction, the system applies Convolutional Neural Networks (CNNs) to accurately detect the presence of tumors.
 <img width="969" height="643" alt="image" src="https://github.com/user-attachments/assets/556670e1-0469-4160-8844-5763393137a8" />
-<img width="866" height="456" alt="image" src="https://github.com/user-attachments/assets/b1a672d7-bfa3-4b41-8c5d-0215ee18e1d6" />
+<img width="887" height="494" alt="image" src="https://github.com/user-attachments/assets/10bf96d1-8e24-4b92-bbb3-a8e6364eaa2b" />
+
 
 The similar page applies for kidney.
 
 Brain Output:
-<img width="879" height="349" alt="image" src="https://github.com/user-attachments/assets/f5f2fc49-3a2c-4541-9f76-555d215744a5" />
-<img width="865" height="332" alt="image" src="https://github.com/user-attachments/assets/1cff3569-1d8f-4d0a-b59c-7f006eae9aab" />
-<img width="856" height="364" alt="image" src="https://github.com/user-attachments/assets/7c62d8da-31b8-4d37-a17f-c57662181c26" />
+1.Glioma
+<img width="758" height="299" alt="image" src="https://github.com/user-attachments/assets/18b6c878-8d3d-48ca-a3fb-d55641d9587b" />
+
+2.Meningioma
+<img width="757" height="278" alt="image" src="https://github.com/user-attachments/assets/abda932b-3065-4678-b21c-fa496ae79524" />
+
+3.No tumor
+<img width="730" height="300" alt="image" src="https://github.com/user-attachments/assets/547e5798-00ff-47bb-aac3-c2ac6933c4cb" />
 
 Kidney Output:
-<img width="870" height="378" alt="image" src="https://github.com/user-attachments/assets/3df64187-c850-496b-a8b6-37e24b14a614" />
-<img width="892" height="367" alt="image" src="https://github.com/user-attachments/assets/559d55c8-f07b-406d-84d9-bdac35611173" />
+1.Tumor
+<img width="809" height="329" alt="image" src="https://github.com/user-attachments/assets/0d0415a8-e9a7-4682-8578-387101f3d40c" />
+
+2.No tumor
+<img width="833" height="315" alt="image" src="https://github.com/user-attachments/assets/add6b142-c9ac-4298-af3a-a04dfaeff1c4" />
